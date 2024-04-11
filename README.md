@@ -2,7 +2,7 @@
 
 This project focuses on building a machine learning model to classify fashion items using the FashionMNIST dataset sourced from [Kaggle](https://www.kaggle.com/datasets/zalando-research/fashionmnist). FashionMNIST is a dataset of Zalando's article images, consisting of 60,000 training examples and 10,000 test examples. Each example is a 28x28 grayscale image associated with a label from 10 classes.
 
-Dataset in `data.csv` has only 2 classes: Trousers and Non-Trousers. The number of examples was reduced too.
+Dataset in `train.csv` has only 2 classes: Trousers and Non-Trousers. The number of examples was reduced too.
 
 ## Dataset Overview
 
@@ -14,7 +14,7 @@ Zalando seeks to replace the original MNIST dataset.
 
 ## Project Structure
 The project is organized as follows:
-- `data.csv`: Dataset in csv format
+- `train.csv`: Dataset in csv format
 - `README.md`: This file providing an overview of the project (You are reading it right now!).
 - `mnist_fashion.ipynb`: Jupyter Notebook containing the code for data preprocessing, EDA, model training, and evaluation.
 - `requirements.txt`: List of Python packages required to run the notebook.
